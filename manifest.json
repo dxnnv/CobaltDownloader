@@ -3,7 +3,7 @@
   "name": "Cobalt Downloader",
   "version": "1.0",
   "description": "Copies the active tab's URL and pastes it into a new tab of https://cobalt.tools",
-  "permissions": ["tabs", "scripting"],
+  "permissions": ["activeTab", "scripting"],
   "host_permissions": ["https://cobalt.tools/*"],
   "icons": {
     "16": "icons/icon16.png",
